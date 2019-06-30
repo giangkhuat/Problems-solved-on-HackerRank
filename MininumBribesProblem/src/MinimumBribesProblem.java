@@ -1,7 +1,7 @@
 import java.math.*;
 import java.util.*;
 
-public class Solution {
+public class MinimumBribesProblem {
 
   // Complete the minimumBribes function below.
   static void minimumBribes(int[] q) {
