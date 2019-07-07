@@ -21,16 +21,14 @@ Problems solved on HackerRank
    ---
    
   **Luck Balance Problem**
-   
-    * Link: [Problem Description](https://www.hackerrank.com/challenges/luck-balance/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
+   * Link: [Problem Description](https://www.hackerrank.com/challenges/luck-balance/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
     
-    ---
-    
+---
    **Ice Cream Parlor Search Problem**
    
-    * 3 approaches included: HashMap, Sort and Binary Search, Moving Pointers
+   * 3 approaches included: HashMap, Sort and Binary Search, Moving Pointers
     
     * Link: [Question description](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search)
     
-    ---
+---
    
