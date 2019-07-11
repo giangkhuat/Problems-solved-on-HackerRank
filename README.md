@@ -31,4 +31,7 @@ Problems solved on HackerRank
     * Link: [Question description](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search)
     
 ---
+   **Maximize Minimum Greedy Algorithm Problem**
+   * Link: [Question description](https://www.hackerrank.com/challenges/angry-children/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms)
+   * Passed all test cases
    
