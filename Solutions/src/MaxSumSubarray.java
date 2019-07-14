@@ -5,8 +5,9 @@ public class MaxSumSubarray {
 
   // Referencing Kadane's algorithm
   /*
-   * Idea: store solutions for problem of size i-2 and i-1, where i is the size of the subproblem. *
-   * If i = 0, the largest sum of subarary so far is a[0] * If i = 1, max subarray sum = max(arr[1],
+   * Idea: store solutions for problem of size i-2 and i-1, where i is the size of the subproblem.
+   *  *If i = 0, the largest sum of subarary so far is a[0] 
+   *  * If i = 1, max subarray sum = max(arr[1],
    * dp[0] * i > 1, max sum is either solution for problem i-1, or solution for problem i-2, or
    * solution of problem i-2 + arr[i], or ar[i].
    */
