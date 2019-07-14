@@ -27,8 +27,7 @@ Problems solved on HackerRank
    **5. Ice Cream Parlor Search Problem**
    
    * 3 approaches included: HashMap, Sort and Binary Search, Moving Pointers
-    
-    * Link: [Question description](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search)
+   * Link: [Question description](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search)
     
 ---
    **6. Maximize Minimum Greedy Algorithm Problem**
@@ -45,6 +44,12 @@ Problems solved on HackerRank
 ---
    **8. Alice Candies Dynamic Programming**
    *   **Problem Statement**: Alice is a kindergarten teacher. She wants to give some candies to the children in her class.  All the children sit in a line and each of them has a rating score according to his or her performance in the class.  Alice wants to give at least 1 candy to each child. If two children sit next to each other, then the one with the higher rating must get more candies. Alice wants to minimize the total number of candies she must buy.
-    * Link: [Question Description](https://www.hackerrank.com/challenges/candies/problem?h_r=profile)
+   * Link: [Question Description](https://www.hackerrank.com/challenges/candies/problem?h_r=profile)
+
+---
+  
+   **9. Check Balanced Brackets**
+   * **Problem Statement**: Given  strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO.
+   * Link: [Question description](https://www.hackerrank.com/challenges/balanced-brackets/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=stacks-queues)
 
 
