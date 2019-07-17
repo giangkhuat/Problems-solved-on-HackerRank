@@ -45,11 +45,22 @@ Problems solved on HackerRank
    **8. Alice Candies Dynamic Programming**
    *   **Problem Statement**: Alice is a kindergarten teacher. She wants to give some candies to the children in her class.  All the children sit in a line and each of them has a rating score according to his or her performance in the class.  Alice wants to give at least 1 candy to each child. If two children sit next to each other, then the one with the higher rating must get more candies. Alice wants to minimize the total number of candies she must buy.
    * Link: [Question Description](https://www.hackerrank.com/challenges/candies/problem?h_r=profile)
+   * Work in progress: Passed 11/16 test cases 
 
 ---
   
    **9. Check Balanced Brackets**
    * **Problem Statement**: Given  strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO.
    * Link: [Question description](https://www.hackerrank.com/challenges/balanced-brackets/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=stacks-queues)
+   * Passed all test cases
+---
+
+   **10. Largest Rectangular Area in Histogram using stack**
+   * **Problem Statement**: Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+   * Link: [Question Description](https://www.hackerrank.com/challenges/largest-rectangle/problem)
+   * Passed 15/15 test cases
+   * Time Complexity: O(n)
+   * Solution using stack data structure
+   
 
 
