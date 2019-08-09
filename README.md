@@ -55,29 +55,29 @@ Problems solved on HackerRank
    * Passed all test cases
 ---
 
-   **10. Largest Rectangular Area in Histogram using stack**
+   **10. Largest Rectangular Area in Histogram using stack (Medium)**
    * **Problem Statement**: Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
    * Link: [Question Description](https://www.hackerrank.com/challenges/largest-rectangle/problem)
    * Passed 15/15 test cases
    * Time Complexity: O(n)
    * Solution using stack data structure
 ---
-   **11. Min Max Riddle**:
+   **11. Min Max Riddle (Medium)**:
    * **Problem Statement**: Given an integer array of size , find the maximum of the minimum(s) of every window size in the array. The window size varies from 1 to n .
    * Work in progress
 ---
-   **12. Castle On The Grid**: 
+   **12. Castle On The Grid (Hard)**: 
    * **Problem Stateement**: You are given a square grid with some cells open (.) and some blocked (X). Your playing piece can move along any row or column until it reaches the edge of the grid or a blocked cell. Given a grid, a start and an end position, determine the number of moves it will take to get to the end position.
    * Link: [Problem Description](https://www.hackerrank.com/challenges/castle-on-the-grid/problem?filter=Vietnam&filter_on=country&h_l=interview&page=1&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=stacks-queues)
    * Work in progress: Passed 11/12 test cases (1 test case did not pass due to timed out)
 ---
-   **13. BFS Shortest Path too all nodes in graph**
+   **13. BFS Shortest Path too all nodes in graph (Hard)**
    * **Problem Statement**: Consider an undirected graph consisting of n nodes where each node is labeled from 1 to n and the edge between any two nodes is always of length . We define node  to be the starting position for a BFS. Given a graph, determine the distances from the start node to each of its descendants and return the list in node number order, ascending. If a node is disconnected, it's distance should be -1 
    * Link: [Problem Description](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs).
    * Passed 8/8 Test Cases
    * Solution used Adjacency List and Queue
 ---
-   **14. Connected Cells In a Grid**
+   **14. Connected Cells In a Grid (Hard)**
    * **Problem Statement**: Given an  matrix, find and print the number of cells in the largest region in the matrix.(region is defined as connected cells containg 1)
    * Link: [Description](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem)
    * Passed 7/7 Test cases
