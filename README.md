@@ -76,6 +76,12 @@ Problems solved on HackerRank
    * Link: [Problem Description](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs).
    * Passed 8/8 Test Cases
    * Solution used Adjacency List and Queue
+---
+   **14. Connected Cells In a Grid**
+   * **Problem Statement**: Given an  matrix, find and print the number of cells in the largest region in the matrix.(region is defined as connected cells containg 1)
+   * Link: [Description](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem)
+   * Passed 7/7 Test cases
+   * Solution used Recursion, DFS concepts
 
 
    
