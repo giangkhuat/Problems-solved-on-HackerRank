@@ -13,3 +13,5 @@
 /trial.class
 /CastleOnTheGrid$Point.class
 /ShortestPathBFS.class
+/ConnectedCellsInAGrid.class
+/ConnectedCellsInAGrid$Point.class
