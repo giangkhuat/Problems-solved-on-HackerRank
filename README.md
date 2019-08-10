@@ -82,6 +82,12 @@ Problems solved on HackerRank
    * Link: [Description](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem)
    * Passed 7/7 Test cases
    * Solution used Recursion, DFS concepts
+---
+   **15. Binary Tree Height (Easy)**
+   * **Problem statement**: Find the height of a binary tree
+   * Passed 7/7 test cases
+   * Solution Using recursion
+   * Time complexity: O(n)
 
 
    
