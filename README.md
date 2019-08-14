@@ -100,6 +100,12 @@ Problems solved on HackerRank
    * **Problem Statement**: Find all permutations of a list of integers
    * Approach: bottom-up. Starting with the base case, when list is empty or size 1, all permutations possible is just that list
    Else to create permutations for a list of size n, we producce permutations for the sublist size n-1, combine it with the n-th element. 
+---
+   **18. Fibonacci Sequence using Dynamic Programming (Easy)**
+   * **Problem statement**: Given n, return nth element in the sequence
+   * Passed 9/9 test cases
+   * Time Complexity: O(n) (with dynamic programming)
+   * Space Complexity: O(n) (can be optimized to be O(1) by initializing array of size 2
    
    
    
