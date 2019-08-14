@@ -88,7 +88,21 @@ Problems solved on HackerRank
    * Passed 7/7 test cases
    * Solution Using recursion
    * Time complexity: O(n)
-
+---
+   **16. Binary Search Tree Lowest Common Ancestor (Easy)**
+   * **Problem Statement**: Find the lowest common ancestor of two nodes in a binary search tree
+   * Passed 9/9 test cases
+   * Solution used recursion concept 
+   * Time complexity: O(n) with n is number of edges
+   * Link: [Description](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees)
+---
+   **17. Permutations of a list of numbers using Recursion (Medium)**
+   * **Problem Statement**: Find all permutations of a list of integers
+   * Approach: bottom-up. Starting with the base case, when list is empty or size 1, all permutations possible is just that list
+   Else to create permutations for a list of size n, we producce permutations for the sublist size n-1, combine it with the n-th element. 
+   
+   
+   
 
    
 
