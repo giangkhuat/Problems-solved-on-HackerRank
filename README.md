@@ -106,7 +106,15 @@ Problems solved on HackerRank
    * Passed 9/9 test cases
    * Time Complexity: O(n) (with dynamic programming)
    * Space Complexity: O(n) (can be optimized to be O(1) by initializing array of size 2
-   
+---
+   **19. Missing element in the array**
+   * **Problem Statement**: Given an array containing elements from 1 to n, find the missing element.
+   * This is a problem outside HackerRank
+   * Time Complexity: O(n)
+---
+   **20. Optimize with Greedy Algorithm**
+   * **Problem Statement**: Given an array consisting of cost of toys. Given an integer K depicting the amount of money available to purchase toys. Write a program to find the maximum number of toys one can buy with the amount K.
+   * Time Complexity: O(n)
    
    
 
