@@ -115,7 +115,21 @@ Problems solved on HackerRank
    **20. Optimize with Greedy Algorithm**
    * **Problem Statement**: Given an array consisting of cost of toys. Given an integer K depicting the amount of money available to purchase toys. Write a program to find the maximum number of toys one can buy with the amount K.
    * Time Complexity: O(n)
-   
+---
+   **21. Recursive Digit Sum**
+   * **Problem Statement**: You are given two numbers n and k . The number is p  created by concatenating the string n  k times. Given an integer, If  has only  digit, then its super digit is 1. Otherwise, the super digit of x is equal to the super digit of the sum of the digits of x .
+   * The solution uses recursion to fit HackerRank category but it can be unnecessarily complicated
+   * The solution can be implemented with O(1) time complexity using modular arithmetic
+        *  The Digit Sum of a Number to Base 10 is Equivalent to Its Remainder Upon Division by 9
+   *   Link Reference: http://applet-magic.com/digitsummod9.htm 
+   * Constraints:
+        *   1 <=n <= 10^100000
+        *   1 <= k < 10^5
+  * Since the numbers after concatenate k times are likely to > Integer.MAX_VALUE and also can not be stored in a string, in each call to superDigit, we
+      * Turn string into Stream object (n.chars()), which is a sequence of elements
+      * Map each of those characters in the stream to long, get numeric value and sum them up
+      * Turn them into string
+  * Passed 11/11 test cases even with huge input
    
 
    
