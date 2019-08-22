@@ -116,7 +116,7 @@ Problems solved on HackerRank
    * **Problem Statement**: Given an array consisting of cost of toys. Given an integer K depicting the amount of money available to purchase toys. Write a program to find the maximum number of toys one can buy with the amount K.
    * Time Complexity: O(n)
 ---
-   **21. Recursive Digit Sum**
+   **21. Recursive Digit Sum (Medium)**
    * **Problem Statement**: You are given two numbers n and k . The number is p  created by concatenating the string n  k times. Given an integer, If  has only  digit, then its super digit is 1. Otherwise, the super digit of x is equal to the super digit of the sum of the digits of x .
    * The solution uses recursion to fit HackerRank category but it can be unnecessarily complicated
    * The solution can be implemented with O(1) time complexity using modular arithmetic
@@ -131,7 +131,7 @@ Problems solved on HackerRank
       * Turn them into string
   * Passed 11/11 test cases even with huge input
 ---
-  **22. Huffman Tree Decoding**
+  **22. Huffman Tree Decoding (Medium)**
   * **Problem Statement**: You are given pointer to the root of the Huffman tree and a binary coded string to decode. You need to print the decoded string.
   * Answer uses non recursive solution
   * Time Complexity: O(n)
