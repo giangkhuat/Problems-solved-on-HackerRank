@@ -130,6 +130,11 @@ Problems solved on HackerRank
       * Map each of those characters in the stream to long, get numeric value and sum them up
       * Turn them into string
   * Passed 11/11 test cases even with huge input
+---
+  **22. Huffman Tree Decoding**
+  * **Problem Statement**: You are given pointer to the root of the Huffman tree and a binary coded string to decode. You need to print the decoded string.
+  * Answer uses non recursive solution
+  * Time Complexity: O(n)
    
 
    
