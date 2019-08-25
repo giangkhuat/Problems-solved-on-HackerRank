@@ -136,6 +136,13 @@ Problems solved on HackerRank
   * Answer uses non recursive solution
   * Time Complexity: O(n)
    
+---
+   **23. Array Maniplation (Finding maximum in an array after queries updated) (Hard)**
+   * **Problem Statement**:Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in your array.
+   * Answer using reference from : [Prefix Algorithm](https://www.youtube.com/watch?v=hDhf04AJIRs)
+   * Time Complexity: O(n+m)
+   * Space Complexity: O(1)
+   * Passed 15/15 test cases
 
    
 
