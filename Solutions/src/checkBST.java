@@ -22,8 +22,3 @@ public class checkBST {
     return isBSTHelper(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
   }
 }
-
-/*
- * Non-recursive solution: if root.data is an object
- * Solution using stack and inorder traversal concept, checking if the stack is already sorted
-*/
