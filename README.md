@@ -142,7 +142,13 @@ Problems solved on HackerRank
    * Answer using reference from : [Prefix Algorithm](https://www.youtube.com/watch?v=hDhf04AJIRs)
    * Time Complexity: O(n+m)
    * Space Complexity: O(1)
-   * Passed 15/15 test cases
+   * Passed 15/15 test cases   
+---
+   **24. Sparse Array (Medium)**
+    * **Problem Statement**:There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings.
+   * Time Complexity: O(n+m)
+   * Space Complexity: O(1)
+   * Passed 15/15 test cases   
 
    
 
