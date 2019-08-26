@@ -3,6 +3,25 @@ import java.util.Scanner;
 
 
 public class MaximumInArrayAfterUpdates {
+  
+  /*
+   * Time comlexity: O(n + m)
+   * Space complexity: O(1)
+   * 
+   * Idea: Using prefix sum algorithm(https://stackoverflow.com/questions/56249944/array-manipulation-hackerrank-questions-java/56327605#56327605)
+   *  Assume our original array: 
+   *  Indices: 1   2    3   4   5
+   *   A[i]    0   0    0   0   0
+   * Query From indices 1->3 Add 5
+   *   A[i]    5   5    5   0   0 
+   * Calculate the differences between a[i] and a[i-1], we get the array
+   *           5   0    0   - 5  0
+   *  => This is why we add 5 and -5 on indices 1/begin and 4/end+1 to store the difference between numbers
+   *  Apply prefix sum algorithm => Get the original array
+   *  A[i]     5    5    5    0  0
+   *  So using this principle, we store only k in indices a and -k in b+1
+   *  to get the difference array, apply prefix sum algorithm we will get the original numbers
+   */
 
   // Complete the arrayManipulation function below.
   static long arrayManipulation(int n, int[][] queries) {
