@@ -1,6 +1,6 @@
 # HackerRank
 
-Problems solved on HackerRank
+Problems solved on HackerRank, Leetcode and Pramp
 
 **1. Minimum Bribes Problem**
 
@@ -145,11 +145,31 @@ Problems solved on HackerRank
    * Passed 15/15 test cases   
 ---
    **24. Sparse Array (Medium)**
-    * **Problem Statement**:There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings.
+   * **Problem Statement**:There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings.
    * Time Complexity: O(n+m)
    * Space Complexity: O(1)
    * Passed 15/15 test cases   
+---
+   **25. Absolute Value Sort (from Pramp)**
+   * **Problem Statement**:Given an array of integers arr, write a function absSort(arr), that sorts the array according to the absolute values of the numbers in arr. If two numbers have the same absolute value, sort them according to sign, where the negative numbers come before the positive numbers.
+   * Time Complexity: O(nlogn)
+   * Space Complexity: O(1)
+---
+   **26. Check BST(Problem from Leetcode)**
+   * Check if a given tree is BST
+---
+   **27. Flatten Dictionary (Hard - Leetcode)**
+   * **Problem Statement**: Given a dictionary dict, write a function flattenDictionary that returns a flattened version of it .
+   * Passed 6/6 Test cases
+   * Time Complexity: O(N)
+   * Space Complexity: O(n)
+ ---
+   **28. Shifted Array Search (Medium - Leetcode)**
+   * Given shiftArr and an integer num, implement a function shiftedArrSearch that finds and returns the index of num in shiftArr. If num isn’t in shiftArr, return -1. Assume that the offset can be any value between 0 and arr.length - 1.
+   * Passed 6/6 test cases
+   * Time Complexity: O(logn) using binary search
 
+   
    
 
 
