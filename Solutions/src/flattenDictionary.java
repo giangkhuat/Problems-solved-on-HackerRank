@@ -83,20 +83,21 @@ java.lang.AssertionError: expected:<{a.b.c.d.e.f.=awesome}> but was:<{a.b.c.d.e.
     recurse(flatDict, dict, "");
     return flatDict;
   }
-  
-  static void recurse(HashMap<String, String> flatDict, HashMap<String, Object> dict, String initialKey) {
+
+  static void recurse(HashMap<String, String> flatDict, HashMap<String, Object> dict,
+      String initialKey) {
     for (String key : dict.keySet()) {
       if (dict.get(key) instanceof String) {
         if (initialKey == null || initialKey == "") {
           flatDict.put(key, (String) dict.get(key));
         } else {
-          flatDict.put(initialKey + "." + key, (String)dict.get(key));
+          flatDict.put(initialKey + "." + key, (String) dict.get(key));
         }
       } else { // recursive case
         if (initialKey == null || initialKey == "") {
-          recurse(flatDict, (HashMap<String, Object>) dict.get(key), key );
+          recurse(flatDict, (HashMap<String, Object>) dict.get(key), key);
         } else {
-          recurse(flatDict, (HashMap<String, Object>) dict.get(key), initialKey + "." + key );
+          recurse(flatDict, (HashMap<String, Object>) dict.get(key), initialKey + "." + key);
         }
       }
     }
@@ -105,8 +106,7 @@ java.lang.AssertionError: expected:<{a.b.c.d.e.f.=awesome}> but was:<{a.b.c.d.e.
   
   
   
-  
-  /*
+  /* Python Solution from Pramp
   ==============================
   
   function flattenDictionary(dict):
