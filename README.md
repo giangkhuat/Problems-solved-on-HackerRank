@@ -168,8 +168,26 @@ Problems solved on HackerRank, Leetcode and Pramp
    * Given shiftArr and an integer num, implement a function shiftedArrSearch that finds and returns the index of num in shiftArr. If num isn’t in shiftArr, return -1. Assume that the offset can be any value between 0 and arr.length - 1.
    * Passed 6/6 test cases
    * Time Complexity: O(logn) using binary search
-
-   
+---
+   **29. Romans To Integer (Easy-LeetCode)**
+   * Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+   * Time Complexity O(n)
+---
+   **30. Three Sums(medium- LeetCode)**
+   * Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+   * Time Complexity O(n^2) (using two pointers)
+ ---
+   **31. Dutch National Flag Problem(medium- LeetCode)**
+   * Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+   * Time Complexity O(n) (using two pointers)
+ ---
+   **32. Remove Duplicates from Sorted Array(medium- LeetCode)**
+   * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+   * Time Complexity O(n) 
+---
+   **33. Remove Duplicates from Sorted Array(medium- LeetCode)**
+   * Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+   * Time Complexity O(n) 
    
 
 
