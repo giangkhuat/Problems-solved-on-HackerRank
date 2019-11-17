@@ -33,9 +33,6 @@ public class findAllMissingNum {
   public List<Integer> findDisappearedNumbers(int[] nums) {
     List<Integer> returnList = new ArrayList<Integer>();
     int[] sortedBin = new int[nums.length];
-    /*
-     * for (int i = 0; i < nums.length; i++) { sortedBin[i] = 0; }
-     */
 
     for (int i = 0; i < nums.length; i++) {
       int pos = nums[i];
