@@ -14,6 +14,17 @@ public class LuckBalance {
         return result;
       }
     });
+    
+    /*
+     *  Comparator<Integer[]> comparator = Comparator.comparing(x -> x[0])
+    .thenComparing(x -> x[1]);
+    // when
+    Arrays.sort(a, comparator.reversed());
+    Comparator<String[]> byName = Comparator.comparing( row -> row[1] );
+Comparator<String[]> byGPA = Comparator.comparing( row -> Double.parseDouble(row[2]) );
+
+Arrays.sort(a, byName.thenComparing(byGPA));
+     */
 
     for (int i = 0; i < contests.length; i++) {
       if (contests[i][1] == 0) {
