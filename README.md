@@ -185,11 +185,20 @@ Problems solved on HackerRank, Leetcode and Pramp
    * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
    * Time Complexity O(n) 
 ---
-   **34. Find all missing numbers(Easy- LeetCode)**
-   *Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
-Find all the elements of [1, n] inclusive that do not appear in this array in O(1) space and  O(n) time complexity
+   **33. Remove Duplicates from Sorted Array(medium- LeetCode)**
+   * Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
    * Time Complexity O(n) 
-   * O(n) space complexity
+ ---
+   **34. KnapSack Dynamic Programming**
+   * Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+   * Recursive solution: O(n2^n)
+   * DP solution: O(nW)
+ ---
+   **35. Find Regular Expression Program**
+     * Given a string and a pattern, find the number of occurences of the pattern in the string
+---
+   **36. Find benchmark for portfolio**
+   * Given a set of benchmark securities packages and a set of portfolios, find the amount of securities that you need to sell or buy for each portfolio.
    
 
 
