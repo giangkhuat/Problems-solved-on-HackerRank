@@ -1,10 +1,3 @@
-/BalancedBrackets.class
-/BinTreeHeight.class
-/BinTreeLowestCommonAncestor.class
-/Book.class
-/CastleOnTheGrid$Point.class
-/CastleOnTheGrid.class
-/ConnectedCellsInAGrid.class
 /Decoding.class
 /DynamicProgramCandiesProblem.class
 /Fibonacci.class
@@ -13,6 +6,7 @@
 /LargestRectangleAreaUsingStack.class
 /LuckBalance$1.class
 /LuckBalance.class
+/MagicWord.class
 /Main.class
 /MaxSumSubarray.class
 /MaximizeMin.class
@@ -23,6 +17,7 @@
 /Node.class
 /OptimizeWGreedy.class
 /Permutations.class
+/PowerSetofASet.class
 /RansomNote.class
 /RecursiveDigitSumAug20.class
 /RegexProgram.class
@@ -33,7 +28,7 @@
 /checkBST.class
 /dutchNationalFlag.class
 /findAllMissingNum.class
-/knapsachDP.class
+/knapsackDP.class
 /maxDistanceToClosestPerson.class
 /mergeSortedArrayLeetcode.class
 /removeDuplicatesAtMostTwice.class
@@ -41,5 +36,6 @@
 /shiftedArraySearch.class
 /threeSum.class
 /trial.class
-/knapsackDP.class
-/PowerSetofASet.class
+/GrumpyStoreOwner.class
+/GrumpyStoreOwner$Solution.class
+/GenerateNthRowPascalTriangle.class
