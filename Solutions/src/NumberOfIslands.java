@@ -19,7 +19,7 @@ class NumberOfIslands {
   }
 
   public static void exploreIsland(char[][] grid, int row, int col) {
-    if (row < 0 || col < 0 || row >= grid.length || col >= grid[0].length
+    if (row < 0 || col < 0 || row >= grid.length || col >= grid[0].length)
         || grid[row][col] != '1') {
       return;
     }

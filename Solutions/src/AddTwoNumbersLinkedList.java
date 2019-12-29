@@ -1,4 +1,37 @@
 
+/*
+ * public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode pointerFirst = l1;
+        ListNode pointerSec = l2;
+        ListNode result = dummy;
+        int sum = 0, carryon = 0;
+        while (pointerFirst != null || pointerSec != null) {
+            System.out.println("sum = " + sum);
+            System.out.println("carryon= " + carryon);
+            sum = sum + carryon;
+            
+            if (pointerFirst != null) {
+                sum = sum + pointerFirst.val;
+                pointerFirst = pointerFirst.next;
+            }
+            if (pointerSec != null) {
+                sum = sum + pointerSec.val;
+                pointerSec = pointerSec.next;
+            }
+            result.next = new ListNode(sum %10);
+            result  = result.next;
+            carryon = sum / 10;
+            sum = 0;
+            
+            
+        }
+        if (carryon != 0) {
+            result.next = new ListNode(carryon);
+        }
+        return dummy.next;
+    }
+ */
 
 public class AddTwoNumbersLinkedList {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
