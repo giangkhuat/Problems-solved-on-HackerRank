@@ -195,10 +195,122 @@ Problems solved on HackerRank, Leetcode and Pramp
    * DP solution: O(nW)
  ---
    **35. Find Regular Expression Program**
-     * Given a string and a pattern, find the number of occurences of the pattern in the string
+   * Given a string and a pattern, find the number of occurences of the pattern in the string
 ---
    **36. Find benchmark for portfolio**
    * Given a set of benchmark securities packages and a set of portfolios, find the amount of securities that you need to sell or buy for each portfolio.
+---
+   **38. Add two numbers linked list**
+   * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+   * Solution: O(n) beats 99.99% 
+---
+   **39. Best Time to Buy and Sell Stock**
+   * Say you have an array for which the ith element is the price of a given stock on day i.If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.Note that you cannot sell a stock before you buy one.
+---
+  **40. Binary Tree Level Order**
+   * Traverse a binary tree level order
+---
+  **41. Generate nth row pascal triangle**
    
+---
+  **42. Grumpy Store Owner**
+   * Today, the bookstore owner has a store open for customers.length minutes.  Every minute, some number of customers (customers[i]) enter the store, and all those customers leave after the end of that minute.
+   * On some minutes, the bookstore owner is grumpy.  If the bookstore owner is grumpy on the i-th minute, grumpy[i] = 1, otherwise grumpy[i] = 0.  When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise they are satisfied.
+   * The bookstore owner knows a secret technique to keep themselves not grumpy for X minutes straight, but can only use it once.
+   * Return the maximum number of customers that can be satisfied throughout the day.
+---
+  **42. LRU Cache Leetcode**
+   * Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.
+   * get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+   * put(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+---
+  **43. Longest Palindromic Substring**
+   * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+---
+  **43. Longest Substring without repeating character**
+   * Given a string, find the length of the longest substring without repeating characters.
+---
+  **44. Magic Word**
+   
+---
+  **45. Maximum Sum Subarray**
+   * Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+---
+  **46. Missing Integer in Codility**
+* Find the minimal positive integer not occurring in a given sequence.
+---
+  **47. Number of Islands Leetcode**
+* Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+---
+  **48. Product of Array except Self**
+* Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+---
+  **49.Binary Tree Right Side View**
+* Write a program to return all nodes that are visible from the right of a binary tree
+---
+  **50.Delete elements in a linked list**
+* Write a program to delete all elements equal to target in a linked list
+---
+  **51.Find binomial coefficient**
+* Write a function that takes two parameters n and k and returns the value of Binomial Coefficient C(n, k)
+---
+  **52.Gas Station**
+* There are N gas stations along a circular route, where the amount of gas at station i is gas[i].You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
+* Return the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
+---
+  **53.k difference pair in an array**
+* Given an array of integers and an integer k, you need to find the number of unique k-diff pairs in the array. Here a k-diff pair is defined as an integer pair (i, j), where i and j are both numbers in the array and their absolute difference is k.
+---
+  **54. Kangaroo Jumps HackerRank**
 
+---
+  **55. Meeting Rooms II**
+* Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] find the minimum number of conference rooms required.
+---
+  **55. Merge Intervals LEetcode Medium**
+* Given a collection of intervals, merge all overlapping intervals.
+Example 1: 
+Input: [[1,3],[2,6],[8,10],[15,18]]
+Output: [[1,6],[8,10],[15,18]]
+Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6]..
+---
+  **56. Move Zeroes**
+* Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+---
+  **57. Reorder Log Files**
+* 
+---
+  **58. Reverse Integer**
+* Given a 32-bit signed integer, reverse digits of an integer.
+Example 1:
+Input: 123
+Output: 321
+---
+  **59. Reverse Linked List**
+
+---
+  **59. Search 2D matrix**
+ * Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+Integers in each row are sorted in ascending from left to right.
+Integers in each column are sorted in ascending from top to bottom.
+---
+  **60. Shortest Word distance**
+
+---
+  **61. Spiral Matrix**
+* Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+---
+  **62. ways To sum to N**
+
+---
+  **63. Zigzag Conversion**
+* The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+* Write the code that will take a string and make this conversion given a number of rows:
+---
 
