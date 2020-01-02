@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 class PeekingIterator implements Iterator<Integer> {
   boolean hasNext;
   Iterator<Integer> it;
