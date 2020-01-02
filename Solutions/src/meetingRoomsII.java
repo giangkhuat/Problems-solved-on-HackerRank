@@ -3,7 +3,8 @@ import java.util.PriorityQueue;
 
 public class meetingRoomsII {
   /*
-   * When a room is taken, the room can not be used for anther meeting until the current meeting is over. 
+   * When a room is taken, the room can not be used for anther meeting until the
+   *  current meeting is over. 
    * As soon as the current meeting is finished, the room can be used for another meeting.
    *  We can sort the meetings by start timestamps and sequentially assign each meeting to a room. 
    *  Each time when we assign a room for a meeting, we check if any meeting is finished so that the room can be reused. 
@@ -17,7 +18,7 @@ public class meetingRoomsII {
     }
     
     Arrays.sort(intervals, (a,b)-> a.start - b.start);
-    PriorityQueue<Interval> minHeap = PriorityQueue<Interval>((a, b)-> a.end - b.end); // the one with ending earliest would be on top
+    PriorityQueue<Interval> minHeap = new PriorityQueue<Interval>((a, b)-> a.end - b.end); // the one with ending earliest would be on top
     // so we can merge
     
     minHeap.add(intervals[0]);
