@@ -27,56 +27,34 @@ lowerboundTop= 0     upperboundBelow = height - 1
 
    */
 
-  public static boolean isWithinBorder(List<Integer> lst, int width, int height) {
-    return lst.size() < width * height;
-  }
-
   public List<Integer> spiralOrder(int[][] matrix) {
-    List<Integer> res = new ArrayList<>();
-
-    if (matrix.length == 0 || matrix[0].length == 0) {
-      return res;
+    List<Integer> res = new ArrayList<Integer>();
+    if(matrix.length == 0 || matrix[0].length == 0) return res;
+    
+    int top = 0;
+    int bottom = matrix.length-1;
+    int left = 0;
+    int right = matrix[0].length-1;
+    
+    while(true){
+        for(int i = left; i <= right; i++) res.add(matrix[top][i]);
+        top++;
+        if(left > right || top > bottom) break;
+        
+        for(int i = top; i <= bottom; i++) res.add(matrix[i][right]);
+        right--;
+        if(left > right || top > bottom) break;
+        
+        for(int i = right; i >= left; i--) res.add(matrix[bottom][i]);
+        bottom--;
+        if(left > right || top > bottom) break;
+        
+        for(int i = bottom; i >= top; i--) res.add(matrix[i][left]);
+        left++;
+        if(left > right || top > bottom) break;
     }
-
-    int width = matrix[0].length;
-    int height = matrix.length;
-
-    int lowerboundLeft = 0;
-    int upperboundRight = width - 1;
-    int lowerboundTop = 0;
-    int upperboundBelow = height - 1;
-
-    boolean withinBorder = isWithinBorder(res, width, height);
-
-    while (withinBorder) {
-      // go right , the whole row
-      for (int j = lowerboundLeft; j <= upperboundRight
-          && isWithinBorder(res, width, height); j++) {
-        res.add(matrix[lowerboundTop][j]);
-      }
-      // go down to upperboundBelow - 1
-      for (int i = lowerboundTop + 1; i <= upperboundBelow - 1
-          && isWithinBorder(res, width, height); i++) {
-        res.add(matrix[i][upperboundRight]);
-      }
-      // down right conerer to down left
-      for (int k = upperboundRight; k >= lowerboundLeft
-          && isWithinBorder(res, width, height); k--) {
-        res.add(matrix[upperboundBelow][k]);
-      }
-      // down left to upperleft
-      for (int m = upperboundBelow - 1; m >= lowerboundTop + 1
-          && isWithinBorder(res, width, height); m--) {
-        res.add(matrix[m][lowerboundLeft]);
-      }
-      lowerboundLeft++;
-      upperboundRight--;
-      lowerboundTop++;
-      upperboundBelow--;
-      withinBorder = isWithinBorder(res, width, height);
-    }
+    
     return res;
-
-  }
+}
 
 }

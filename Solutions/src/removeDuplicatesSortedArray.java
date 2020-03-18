@@ -17,4 +17,28 @@ class removeDuplicatesSortedArray {
 
     return j + 1;
   }
+  
+  public int removeDuplicates2(int[] nums) {
+    if (nums == null || nums.length < 2)
+      return nums.length;
+
+    int i = 0;
+    int repeated = nums[0];
+    int latest_pos = 1;
+    
+    for (i = 1; i < nums.length; i++) {
+      while (i < nums.length && repeated == nums[i]) {
+        i++;
+      }
+      if (i < nums.length) {
+        nums[latest_pos] = nums[i];
+        latest_pos++;
+        repeated = nums[i];
+      }
+
+
+    }
+    return latest_pos;
+
+  }
 }
