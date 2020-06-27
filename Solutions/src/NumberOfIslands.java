@@ -28,6 +28,5 @@ class NumberOfIslands {
     exploreIsland(grid, row + 1, col);
     exploreIsland(grid, row, col - 1);
     exploreIsland(grid, row, col + 1);
-
   }
 }
